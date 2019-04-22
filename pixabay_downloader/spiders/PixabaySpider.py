@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 from scrapy import Spider, Request
+import os
 import re, requests
 
 g_types = ['photo','video', 'vector','illustration']
